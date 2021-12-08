@@ -25,7 +25,7 @@ export default function Lin(){
             </div>
             <Switch>
                 <Route exact path="/">
-                   <Primary/>
+                   <Primary />
                 </Route>  
                 <Route exact path='/todoadd'>
                     <TodoAdd/>
