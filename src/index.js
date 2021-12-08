@@ -23,8 +23,6 @@ export default function Lin(){
             <div >
                 <Link to ='/todolist'></Link>
             </div>
-           
-
             <Switch>
                 <Route exact path="/">
                    <Primary/>
@@ -35,8 +33,7 @@ export default function Lin(){
                 <Route exact path='/todolist'>
                     <TodoList/>
                 </Route>            
-            </Switch>
-            
+            </Switch> 
         </Router>
     );
 }
